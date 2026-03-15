@@ -23,7 +23,7 @@ const greeting = {
   username: "Sri jaya shankaran R",
   title: "Hi all, I'm shankar",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I’m a QA Automation Engineer and AWS Certified Solutions Architect focused on building reliable, scalable software systems. I specialize in test automation, API validation, and CI/CD integration using modern tools like Playwright, Selenium, and Jenkins. With a strong foundation in cloud infrastructure, networking, and containerization, I ensure quality across the entire stack—from infrastructure to user interface. I’m currently evolving toward a DevOps and platform engineering role, combining automation, cloud, and operational excellence."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
