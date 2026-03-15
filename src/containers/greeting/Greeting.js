@@ -61,8 +61,14 @@ export default function Greeting() {
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
-                  </a>
+                  </a> 
+
                 )}
+
+                <Button text="Dex Qa (Software testing as a service) " href="https://dexqa.vercel.app/" />
+
+                <Button text="JSPCS (IT support)" href="https://jspcs.vercel.app/"/> 
+
               </div>
             </div>
           </div>

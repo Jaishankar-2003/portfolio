@@ -47,6 +47,10 @@ const socialMediaLinks = {
   display: true // Set true to display this section, defaults to false
 };
 
+
+
+
+
 // Skills Section
 
 const skillsSection = {
