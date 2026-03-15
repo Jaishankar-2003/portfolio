@@ -1,6 +1,6 @@
 import React from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import { skillsSection } from "../../portfolio";
 
 export default function SoftwareSkill() {
   return (
@@ -9,13 +9,21 @@ export default function SoftwareSkill() {
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
-              <li
-                key={i}
-                className="software-skill-inline"
-                name={skills.skillName}
-              >
-                <i className={skills.fontAwesomeClassname}></i>
+              <li key={i} className="software-skill-inline">
+                
+                {skills.icon && (
+                  <img
+                    src={skills.icon}
+                    alt={skills.skillName}
+                    width="60"
+                    height="60"
+                  />
+                )}
+
+                {skills.svg && skills.svg}
+
                 <p>{skills.skillName}</p>
+
               </li>
             );
           })}

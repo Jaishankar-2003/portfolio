@@ -12,21 +12,52 @@ export default function Skills() {
   if (!skillsSection.display) {
     return null;
   }
+
+
+  // return (
+  //   <div className={isDark ? "dark-mode main" : "main"} id="skills">
+  //     <div className="skills-main-div">
+  //       <Fade left duration={1000}>
+  //         <div className="skills-image-div">
+  //           {illustration.animated ? (
+  //             <DisplayLottie animationData={codingPerson} />
+  //           ) : (
+  //             <img
+  //               alt="Man Working"
+  //               src={require("../../assets/images/developerActivity.svg")}
+  //             ></img>
+  //           )}
+  //         </div>
+  //       </Fade>
+
   return (
-    <div className={isDark ? "dark-mode main" : "main"} id="skills">
-      <div className="skills-main-div">
-        <Fade left duration={1000}>
-          <div className="skills-image-div">
-            {illustration.animated ? (
+  <div className={isDark ? "dark-mode main" : "main"} id="skills">
+    <div className="skills-main-div">
+      <Fade left duration={1000}>
+        <div className="skills-image-div">
+          {illustration.animated ? (
+            <>
               <DisplayLottie animationData={codingPerson} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
-              ></img>
-            )}
-          </div>
-        </Fade>
+
+               <div className="devops-lottie-container">
+                <iframe
+                  src="https://lottie.host/embed/6dd0e701-61de-494e-8281-5f40e6d0b0e3/B9DFk0mhH6.json"
+                  className="devops-lottie"
+                  title="DevOps Animation"
+                ></iframe>
+              </div>
+            </>
+          ) : (
+            <img
+              alt="Man Working"
+              src={require("../../assets/images/developerActivity.svg")}
+            ></img>
+          )}
+        </div>
+      </Fade>
+
+
+
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1

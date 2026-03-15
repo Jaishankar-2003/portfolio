@@ -1,31 +1,50 @@
 @import "../../_globalColor";
 
+// .dev-icons {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   jalign-content: stretch;
+    // align-items: stretch;
+    // justify-content: space-evenly;
+// }
+
 .dev-icons {
-  padding-left: 0;
-  list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 .software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 18px;
+  text-align: center;
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.software-skill-inline img {
+  transition: transform 0.3s ease;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.software-skill-inline img:hover {
+  transform: scale(1.15);
 }
-.software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
+
+.devops-lottie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+  width: 100%;
 }
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+
+.devops-lottie {
+  width: 600px;
+  height: 600px;
+  border: none;
 }

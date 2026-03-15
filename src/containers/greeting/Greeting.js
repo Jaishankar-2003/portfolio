@@ -36,6 +36,19 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+                
+                <p
+                  className={
+                    isDark
+                      ? "dark-mode greeting-text-p"
+                      : "greeting-text-p"
+                  }
+                  style={{ fontWeight: "bold", fontSize: "2 rem", marginTop: "10px" }}
+                >
+                  {greeting.subHeader}
+                </p>
+
+
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">

@@ -23,6 +23,7 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+  margin-top: 50px;
 }
 .subTitle {
   color: $subTitle;
@@ -61,4 +62,24 @@
     /* display: none; */
     order: 2;
   }
+  .skills-image-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devops-lottie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.devops-lottie {
+  width: 400px;
+  height: 400px;
+  border: none;
+}
+
 }
