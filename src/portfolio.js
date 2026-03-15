@@ -241,27 +241,27 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Endocrine Disease detection using Image Processing",
+      projectDesc: "Thyroid nodules can be solid or cystic growths within the thyroid gland, and early detection is critical. Our project aimed to classify and detect nodules in ultrasound images using machine learning and deep learning approaches.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://drive.google.com/file/d/1igue9otEJm6CloRTZWJgTAVVu4a9R18R/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Web Traffic Analysis Project Unveiling Digital InsightsNextu",
+      projectDesc: "The project not only achieved a notable increase in web traffic but also laid the groundwork for sustained growth through continuous monitoring and refinement. The success of this endeavor underscores my proficiency in web analytics, strategic thinking, and data-driven decision-making.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://nextu.se/"
+      //   }
+      // ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -277,7 +277,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "postman student expert",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
