@@ -36,7 +36,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Jaishankar-2003/",
-  linkedin: "www.linkedin.com/in/r-sri-jaya-shankaran-b76329223",
+  linkedin: "https://www.linkedin.com/in/r-sri-jaya-shankaran-b76329223",
   gmail: "jaishankar98421@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
