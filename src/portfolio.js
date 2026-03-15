@@ -55,7 +55,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CLOUD & DEVOPS ENTHUSIAST WHO BUILDS, AUTOMATES, AND SCALES EVERYTHING IN THE STACK",
   skills: [
     emoji(
       "⚡ Build and manage cloud infrastructure and environments on AWS for scalable application deployment"
