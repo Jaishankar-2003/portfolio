@@ -13,14 +13,19 @@
 
 .dev-icons {
     list-style: none;
-    padding: 0;
+    padding: 0px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-evenly;
 }
+
+.dev-icons li {
+  font-size: 15px;
+}
+
 
 .software-skill-inline {
   margin: 18px;

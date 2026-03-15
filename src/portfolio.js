@@ -28,20 +28,20 @@ const greeting = {
   subHeader:
     "🚀 I’m currently evolving toward a DevOps and platform engineering role, combining automation, cloud, and operational excellence.",
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TNLTA-f488M6q3-SN824C_xbleo4eTNS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Jaishankar-2003/",
+  linkedin: "www.linkedin.com/in/r-sri-jaya-shankaran-b76329223",
+  gmail: "jaishankar98421@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@jaishankar98421",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -279,51 +279,52 @@ const achievementSection = {
     {
       title: "postman student expert",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Api Testing and Automation using Postman. Certified as Postman Student Expert by Postman.",
+      //image: require("./assets/images/codeInLogo.webp"),
+      //imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://verify.skilljar.com/c/vvejm3k679y7"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "AWS Architecting",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "I have core knowledge of Amazon Web Services (AWS) and AWS Cloud, including AWS Core Services such as AWS Compute, AWS Storage, AWS Networking, and AWS Database.",
+      //image: require("./assets/images/googleAssistantLogo.webp"),
+      //imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.credly.com/badges/a34a4d01-5f8f-46dd-b5af-397f526f616a/linked_in_profile"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "CompTIA A+",
+      subtitle: "I have foundational knowledge aligned with CompTIA A+, including computer hardware, troubleshooting, operating systems, and basic IT support concepts.",
+      //image: require("./assets/images/pwaLogo.webp"),
+      //imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
-    }
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -365,9 +366,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Have a project in mind or just want to say hello? Feel free to reach out — my inbox is always open.",
+  number: "+91-9842139997",
+  email_address: "jaishankar98421@gmail.com"
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
