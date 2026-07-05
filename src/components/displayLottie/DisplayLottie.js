@@ -1,7 +1,4 @@
-import React, {Component, Suspense} from "react";
-import Lottie from "lottie-react";
-import Loading from "../../containers/loading/Loading";
-
+import {Component} from "react";
 export default class DisplayLottie extends Component {
   render() {
     return null;

@@ -14,12 +14,11 @@ import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
-import {StyleProvider} from "../contexts/StyleContext";
 
 import "./Main.scss";
 
 const Main = () => {
-  const isDark = false;
+
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -37,7 +36,6 @@ const Main = () => {
 
   return (
     <div>
-      <StyleProvider value={{isDark: false, changeTheme: () => {}}}>
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (
@@ -57,7 +55,6 @@ const Main = () => {
             <ScrollToTopButton />
           </>
         )}
-      </StyleProvider>
     </div>
   );
 };
